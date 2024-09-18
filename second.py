@@ -71,12 +71,14 @@ elif(light=="green"):
 else:
    print("ok")'''
 
-'''marks=70
+marks=int(input("enter student marks: "))
 if(marks>=90):
-    print(" A")
-elif(90>marks>=80):
-    print("B")   
-elif(80>marks>=70):
-    print("C")   
+    Grade="A"
+elif(marks>=80 and marks<90):
+    Grade="B"  
+elif(marks>=70 and marks<80):
+   Grade="C"   
 else:
-    print("D")    '''  
+   Grade="D"  
+
+print("grade of the student: ",Grade)  
