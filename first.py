@@ -78,7 +78,11 @@ print("sum :",first+second)'''
 '''side=float(input("enter the side: "))
 print("area =",side**2)'''
 #p3
-a=float(input("first number: "))
+'''a=float(input("first number: "))
 b=float(input("second number: "))
 avg=(a+b)/2
-print("avearage :",avg)
+print("avearage :",avg)'''
+#p4
+'''a=int(input("first: "))
+b=int(input("second: "))
+print(a>=b)'''
