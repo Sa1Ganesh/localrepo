@@ -70,7 +70,7 @@ elif(light=="green"):
    print("safe")
 else:
    print("ok")'''
-
+'''
 marks=int(input("enter student marks: "))
 if(marks>=90):
     Grade="A"
@@ -82,3 +82,43 @@ else:
    Grade="D"  
 
 print("grade of the student: ",Grade)  
+'''
+#nesting
+'''
+age =int (input("enter your age: "))
+if (age>=18):
+    if(age>=70):
+        print("cannot drive")
+    else:    
+        print("can drive")
+else:
+    print("cannot drive")   
+'''
+ #p1
+'''
+num=int(input("enter the number"))
+rem=num%2
+if(rem==0):
+ print("even")
+else:
+ print("odd") 
+ '''
+ #p2
+'''
+ a=int(input("enter first number: "))
+ b=int(input("enter second number: "))
+ c=int(input("enter third number: "))
+if(a>=b and a>=c):
+   print("first number is largest",a)
+elif(b>=c):
+   print("second number is largest",b)
+else:
+   print("third number is largest",c)
+ ''' 
+#p3
+num=int(input("enter the number: "))     
+if(num%7==0):
+ print("multiple of 7")
+else:
+ print("not a multiple") 
+             
