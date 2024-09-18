@@ -84,8 +84,8 @@ if(copy_list1==list1):
 else:
     print("not palindrome") 
 #p3
-grade=("c","d","a","a","b","b","a")
+'''grade=("c","d","a","a","b","b","a")
 print(grade.count("a"))
 grade=["c","d","a","a","b","b","a"]
 grade.sort()
-print(grade)
+print(grade)'''
