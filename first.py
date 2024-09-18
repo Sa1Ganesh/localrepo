@@ -70,7 +70,15 @@ print(sum)'''
 fav=input("enter your fav game: ")
 print("welcome to python",name)
 print("fav game is ",fav)'''
-name=input("enter your name: ")
-print("welcome to python",name)
-fav=input("enter your fav game: ")
-print("fav game is ",fav)
+#p1
+'''first=int(input("enter first: "))
+second=int(input("enter second: "))
+print("sum :",first+second)'''
+#p2
+'''side=float(input("enter the side: "))
+print("area =",side**2)'''
+#p3
+a=float(input("first number: "))
+b=float(input("second number: "))
+avg=(a+b)/2
+print("avearage :",avg)
