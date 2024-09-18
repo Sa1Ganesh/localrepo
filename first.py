@@ -83,6 +83,8 @@ b=float(input("second number: "))
 avg=(a+b)/2
 print("avearage :",avg)'''
 #p4
-'''a=int(input("first: "))
+'''
+a=int(input("first: "))
 b=int(input("second: "))
-print(a>=b)'''
+print(a>=b)
+'''
