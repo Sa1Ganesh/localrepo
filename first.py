@@ -29,7 +29,28 @@ print(mod)
 print(a**b)
 '''
 #relational operators
-a=25
+'''a=25
 b=20
 print(a==b)
 print(a!=b)
+print(a>=b)
+print(a<=b)'''
+#assignment operators
+'''
+num=10
+num=num+10
+num+=10
+num-=10
+num*=10
+num/=5
+num**=2
+print(num)
+'''
+#logical operators
+'''print(not False)
+print(not True)
+v1=True
+v2=False
+print("and :",v1 and v2)
+print("or:",v1 or v2)'''
+
