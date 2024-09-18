@@ -116,9 +116,9 @@ else:
    print("third number is largest",c)
  ''' 
 #p3
-num=int(input("enter the number: "))     
+'''num=int(input("enter the number: "))     
 if(num%7==0):
  print("multiple of 7")
 else:
- print("not a multiple") 
+ print("not a multiple") '''
              
