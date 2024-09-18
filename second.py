@@ -40,9 +40,33 @@ print(str.find("self"))
 #5 str.count("")
 print(str.count("am"))'''
 #p1
-name=input("enter your first name: ")
+'''name=input("enter your first name: ")
 print("f_name:",name)
 print("length :" ,len(name))
 print("occurence:",name.count("a"))
-print("position:",name.find("t"))
+print("position:",name.find("t"))'''
+#conditional statements
+#if
+'''age=22
+if (age>=18):
+    print("can vote and apply for license")
+'''
+#elif
+'''light="green"
+if(light=="red"):
+   print("danger")
+elif(light=="white"):
+   print("peace")  
+elif(light=="green"):   
+   print("safe")'''
+#if elif else
+'''light="yellow"
+if(light=="red"):
+   print("danger")
+elif(light=="white"):
+   print("peace")  
+elif(light=="green"):   
+   print("safe")
+else:
+   print("ok")'''
 
