@@ -46,12 +46,13 @@ print("length :" ,len(name))
 print("occurence:",name.count("a"))
 print("position:",name.find("t"))'''
 #conditional statements
-#if
+#if 
 '''age=22
 if (age>=18):
     print("can vote and apply for license")
 '''
-#elif
+#indentation is very imp
+# if elif
 '''light="green"
 if(light=="red"):
    print("danger")
@@ -70,3 +71,12 @@ elif(light=="green"):
 else:
    print("ok")'''
 
+'''marks=70
+if(marks>=90):
+    print(" A")
+elif(90>marks>=80):
+    print("B")   
+elif(80>marks>=70):
+    print("C")   
+else:
+    print("D")    '''  
