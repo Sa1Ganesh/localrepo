@@ -21,6 +21,7 @@ null_dict={}
 print(null_dict)
 '''
 #nested dictionaries
+'''
 student={
     "name":"ganesh",
     "subjects":{
@@ -43,3 +44,35 @@ print(student.get("name"))
 #mydict.update(newdict)
 student.update("place":"puttaparthi")
 print(student)
+'''
+#set
+#unordered ,immutable,unique elements
+'''
+collection={1,2,3,3,4,"sai","sai"}
+print(collection)
+print(type(collection))
+print(len(collection))
+num={}
+print(type(num))
+num1=set()
+print(type(num1))
+'''
+#set methods
+col=set()
+#set.add(el)
+col.add(1)
+col.add(3)
+col.add(1)
+col.add(3)
+col.add(2)
+col.add(5)
+print(col)
+#set.remove(el)
+col.remove(3)
+print(col)
+#set.pop()
+col.pop()
+print(col)
+#set.clear()
+col.clear()
+print(col)
