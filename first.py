@@ -1,4 +1,4 @@
-name="sai"
+"""name="sai"
 age=22
 price=25.32
 a=None
@@ -10,4 +10,5 @@ print(type(name))
 print(type(age))
 print(type(price))
 print(type(a))
-print(type(b))
+print(type(b))"""
+print ("sai ram")
