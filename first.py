@@ -53,4 +53,24 @@ v1=True
 v2=False
 print("and :",v1 and v2)
 print("or:",v1 or v2)'''
-
+#type conversion
+'''a=2
+b=4.25
+sum=a+b
+print(sum)'''
+#type casting
+'''a="2"
+a=int(a)
+b=4.25
+print(type(a))
+sum=a+b
+print(sum)'''
+#inputs
+'''name=input("enter your name: ")
+fav=input("enter your fav game: ")
+print("welcome to python",name)
+print("fav game is ",fav)'''
+name=input("enter your name: ")
+print("welcome to python",name)
+fav=input("enter your fav game: ")
+print("fav game is ",fav)
