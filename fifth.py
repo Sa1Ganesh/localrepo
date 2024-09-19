@@ -54,6 +54,7 @@ while i<len(nums):
         print("finding...")
     i+=1
 '''  
+'''
 #break 
 i=1
 while i<=5:
@@ -71,3 +72,104 @@ while i<=5:
     print(i)
     i+=1
 print("end of loop")   
+'''
+'''
+#odd numbers
+i=1
+while i<=10:
+    if(i%2==0):
+        i+=1
+        continue #skip
+    print(i)
+    i+=1 
+#even numbers
+i=1
+while i<=10:
+    if(i%2!=0):
+        i+=1
+        continue
+    print(i)
+    i+=1
+print("loop ended")  
+'''
+#for loops(sequential travesal)
+'''
+sports=["cricket","badminton","volleybal","basketball","football"]
+for val in sports:
+   print(val)
+nums=(1,2,3,4)  
+for n in nums:
+   print(n) 
+str="SathyaNarayana"   
+for c in str:
+   if(c=="N"):
+      print("found",c)
+      break
+   print(c)
+'''
+'''
+#p1
+nums=[1,4,9,16,36,49,64,51,100]
+for n in nums:
+   print(n)
+x=36   
+num=(1,4,9,16,36,49,64,51,100)
+for n in num:
+   if(n==36):
+      print("found x",n) 
+      break
+   print(n)
+'''   
+#range(start,stop,step)
+'''
+seq=range(5)
+for i in seq:
+   print(i)
+for i in range(5,8):
+   print(i)  
+for i in range(1,7,2):
+   print(i)
+#odd numbers
+for i in range(1,20,2):
+   print(i)  
+#even numbers      
+for i in range(2,20,2):
+   print(i) 
+'''   
+#mutiples
+'''
+n=int(input("enter any number: "))
+for i in range(1,11,1):
+    print(n*i)
+# 1 to 100
+for i in range(1,101):
+    print(i)
+# 100 to 1    
+for i in range(100,0,-1):
+    print(i)
+#pass
+for i in range(5):
+    pass
+print("not required") 
+''' 
+#p1 (sum)
+n=int(input("enter any number: "))
+sum=0
+i=1
+while i<=n:
+    sum+=i
+    i+=1
+'''for i in range(1,n+1):
+    sum+=i '''
+print("total sum: ",sum)
+#p2(factorial)
+n=int(input("enter any number: "))
+fac=1
+i=1
+while i<=n:
+    fac*=i
+    i+=1
+'''for i in range(1,n+1):
+    fac*=i '''
+print("factorial: ",fac)    
+
