@@ -74,5 +74,31 @@ print(col)
 col.pop()
 print(col)
 #set.clear()
-col.clear()
-print(col)
+'''col.clear()
+print(col)'''
+col1={7,8,9,5}
+#set.union(set2)
+print(col.union(col1))
+#set.intersection(set2)
+print(col.intersection(col1))
+#p1
+dict={
+    "table":["furniture","rows and columns"],
+    "cat":"animal"
+}
+print(dict)
+#p2
+subjects={"python","java","c++","python","javascript","java","python","java","c++","c"}
+print(len(subjects))
+#p3
+'''marks={}
+x=int(input("enter maths: "))
+marks.update({"mat":x})
+y=int(input("enter physics: "))
+marks.update({"phy":y})
+z=int(input("enter chemistry: "))
+marks.update({"che":z})
+print(marks)'''
+#p4
+values={9,"9.0"}
+print(values)
