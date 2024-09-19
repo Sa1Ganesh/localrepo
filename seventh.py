@@ -44,10 +44,37 @@ f.close()
 #r+ read+ overwrite (ptr start) -no truncate
 #w+ read+ overwrite (ptr start) -truncate
 #a+ read+ append (ptr end) -no truncate
-
+'''
 #with synatx
 with open("sam.txt","r") as f:
     data=f.read()
     print(data)
 with open("sam.txt","w") as f:
     f.write("sathya narayana ")
+'''
+#deleting a file
+#import os 
+#os.remove("new file.md")
+
+#p1
+'''
+f=open("practice.txt","w")
+f.write("sai ram \n we are learning file I/O \n using python.i like python ")
+'''
+'''
+#p2
+f=open("practice.txt","r")
+data=f.read()
+new_data=data.replace("python","sql")
+print(new_data)
+with open("practice.txt","w") as f:
+    f.write(new_data)
+'''
+#p3
+word="learning"
+with open("practice.txt","r") as f:
+    data=f.read()
+    if(data.find(word)!=-1):
+       print("found")
+    else:
+        print("not found")   
