@@ -20,6 +20,7 @@ def cal_avg(a,b,c):
     print(avg)
 cal_avg(2,3,5)   
 '''
+'''
 #built-in functions
 # print()
 print("sai")
@@ -58,4 +59,21 @@ fact(6)
 def con_(usd_val):
     inr_val=usd_val*83
     print(usd_val,"USD= ",inr_val,"INR")
-con_(1000)   
+con_(1000) 
+'''
+#p5  
+
+#recursion
+def show(n):
+    if(n==0):
+       return
+    print(n)
+    show(n-1)
+show(5)  
+
+def fact(n):
+    if(n==0 or n==1):
+        return 1
+    else:
+        return n*fact(n-1)
+print(fact(5))
