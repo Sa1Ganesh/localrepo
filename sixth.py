@@ -77,3 +77,10 @@ def fact(n):
     else:
         return n*fact(n-1)
 print(fact(5))
+#p1
+def cal_s(n):
+    if(n==0):
+        return 0
+    return cal_s(n-1)+n
+sum=cal_s(5)
+print(sum)
