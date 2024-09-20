@@ -70,6 +70,7 @@ print(new_data)
 with open("practice.txt","w") as f:
     f.write(new_data)
 '''
+'''
 #p3
 word="learning"
 with open("practice.txt","r") as f:
@@ -77,4 +78,6 @@ with open("practice.txt","r") as f:
     if(data.find(word)!=-1):
        print("found")
     else:
-        print("not found")   
+        print("not found")  
+'''
+         
