@@ -1,0 +1,50 @@
+/*create database tem1;
+CREATE DATABASE  tem2 ;
+drop database tem1;
+drop database tem2;*/
+CREATE DATABASE college;
+/*
+CREATE DATABASE IF NOT EXISTS college;
+DROP DATABASE IF EXISTS college;
+SHOW DATABASES;
+SHOW TABLES;
+*/
+USE college;
+/*CREATE TABLE table_name(
+column_name1 datatype constraint
+column_name2 datatype constraint);*/
+/*CREATE TABLE  student(
+ID int primary key,
+NAME varchar(50),
+AGE int not null
+);
+INSERT INTO student VALUES (1,"sai",22);
+INSERT INTO student VALUES(2,"sathya",14);
+INSERT INTO student VALUES(3,"akhil",13);
+SELECT * FROM student;
+DROP TABLE student;*/
+/*
+DATATYPES
+CHAR
+VARCHAR
+BLOB
+INT
+TINYINT SIGNED(-128 TO 127) / UNSIGNED(0 TO 255)
+BIGINT
+BIT
+FLOAT
+DOUBLE
+BINARY
+DATE
+YEAR
+BOOLEAN
+*/
+/* 
+types of sql commands
+DDL(DATA DEFINITION LANGUAGE): CREATE ,ALTER,RENAME,TRUNCATE,DROP
+DQL(DATA QUERY LANGUAGE): SELECT
+DML(DATA MANIPULATION LANGUAGE):INSERT,UPDATE,DELETE
+DCL(DATA CONTROL LANGUAGE): GRANT and REVOKE (permission to users)
+TCL(TRANSACTION CONTROL LANGUAGE): START TRANSACTION,COMMIT,ROLLBACK
+*/
+
