@@ -220,7 +220,8 @@ class Engineer(Employee):
 
 eng1=Engineer("sathya",14)
 eng1.showdetails()
-
+#p3
+print("thank you shradha \nsai ram")
 
 
 
