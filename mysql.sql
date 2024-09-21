@@ -396,4 +396,23 @@ FROM table1 as t1
 RIGHT JOIN table2 as t2
 ON t1.col_name=t2.col_name
 WHERE t1.col_name IS NULL;
+
+UNION 
+to combine the result set of two or more SELECT statements 
+gives UNIQUE records
+
+every SELECT should have same no .of columns 
+columns must have similar data types
+coulumns in every SELECT should be in same order
+
+SYNTAX
+SELECT column(s) FROM table1
+UNION 
+SELECT column(s) FROM table2
+
+VIEWS
+a view is a virtual based on the result set of an SQL statement
+
+CREATE VIEW view1 as
+SELECT rollno, name FROM student;
 */
