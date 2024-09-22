@@ -1,5 +1,5 @@
 --TO CREATE STUDENT DATABASE AND TO CHECK THE RESULTS
---using MYSQL
+--Using MYSQL
 
 CREATE DATABASE student_marks;
 use student_marks;
