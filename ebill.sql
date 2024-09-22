@@ -1,3 +1,4 @@
+-- TO GENERATE ELECTRICITY BILL USING SQL
 create table ebill(rrno varchar2(10),cus_name varchar2(50),bill_date date ,units number); 
 desc ebill;
 insert into ebill values('eh511','sai','15-aug-19',75);
