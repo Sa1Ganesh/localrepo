@@ -1,5 +1,5 @@
 --TO CREATE STUDENT DATABASE AND TO CHECK THE RESULTS
---USING SQLDEVELOPER
+--USING SQL DEVELOPER
 create table student(s_id number,s_name varchar2(30),tel number,hin number ,eng number ,mat number,phy number,che number);
 desc student;
 insert into student values(1,'sai',95,90,93,96,97,95);
